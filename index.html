@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f80ba2f8a6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Screenshot 2024-06-21 223938.png" alt="" style="height: 7rem;width: 8rem;">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" style="color: black;"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: black;"></i>
+            </nav>
+            <div class="headertext">
+                <!-- <p id="">Hello</p> -->
+                <h1>Hey there, I am <br><span><strong>Niranjan</strong></span></h1><br>
+                <p class="remove">
+                    Welcome to my personal portfolio! I'm Niranjan, a student at IIT Guwahati's MnC department, passionate about math and technology. I love exploring new experiences, and living life in my own terms</p>
+            </div>
+        </div>
+    </div>
+
+<!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <h1 class="subtitle">About Me</h1><br>
+            <div class="row">
+                
+                <div class="aboutcol1">
+                    <img src="IMG_20240620_145034.jpg" alt="">
+                </div>
+                <div class="aboutcol2">
+                    
+                    <p class="p">I'm Niranjan, currently pursuing my studies in the Mathematics and Computing (MnC) department at IIT Guwahati. My journey began in Gulbarga, Karnataka, where I was born and raised. I come from a Middle-Class family of four members including my parents and younger sister. I completed my schooling till 10th grade at SRN Mehta School, following the Karnataka Board curriculum. Post my 10th board exams, I moved to Hyderabad, Telangana, for my intermediate studies at Sri Chaitanya College.Language has always been a bridge for me, connecting me to different cultures and communities. I'm fluent in English, Hindi, Kannada, and Telugu, which has enriched my interactions and experiences. My academic journey has been marked by significant achievements.</p>
+                    <br><p class="p remove">Since joining IIT Guwahati, I've immersed myself in the vibrant campus culture. I've participated in numerous fests, club orientations, and various other activities, each experience adding a new dimension to my growth. Meeting Mohit Tyagi, a person I admire greatly and who was instrumental in my JEE preparation through his videos, was a highlight of this journey.</p>
+                    
+                </div>
+                <div class="tabtitles">
+                    <p class="tablinks activelink"  onclick="opentab('education')">Education</p>
+                    <p class="tablinks" onclick="opentab('achievements')">Achievements</p>
+                    <p class="tablinks" onclick="opentab('interests')">Interests</p>
+                    <!-- <p class="tablinks" onclick="opentab('extra-curry')">Extra-Curricular</p> -->
+                    <p class="tablinks" onclick="opentab('extras')">Extras</p>
+                </div>
+                <div class="tabcontents activetab" id="education">
+                    <ul>
+                        <li><span>Schooling</span><br>SRN Mehta School</li>
+                        <li><span>Intermediate</span><br>Sri Chaitanya College</li>
+                        <li><span>Currently Studying</span><br>Engineering in IITG MnC branch</li>
+                        <li><span>Photos </span></li>
+                            <div class="Photos">
+                                <img src="WhatsApp Image 2024-06-23 at 16.05.40_b1bccf59.jpg" alt="" >
+                            </div>
+                    </ul>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="achievements">
+                    <ul>
+                        <li><span>School</span><br>State 10th Topper in SSLC <br>Scored 616/625 (98.56%)</li>
+                        <li><span>Intermedite</span><br>Scored 975/1000 (97.5%)</li>
+                        <li><span>JEE</span><br>AIR 2129 in JEE MAINS <br>AIR 2655 in JEE ADVANCED </li>
+                        <li><span>Chess</span><br>Participated in State Level Chess Championship and got rewarded</li>
+                        <li><span>Photos </span> <br> Place felt empty. That's why!</li>
+                        <div class="Photos">
+                            <img src="WhatsApp Image 2024-06-23 at 16.17.22_6128607e.jpg" id="me" >
+                        </div>
+
+                    </ul>
+                </div>
+                <div class="tabcontents" id="interests">
+                    <ul>
+                        <li><span>Chess</span><br><li>
+                        <li><span>Badminton</span><br>I used to play it in school days and after played here in IIT, it was a very pleasant experience</li>
+                        <li><span>Reading Books, Devout</span><br>I love reading books especially Indian mythology, and spending time in nature. Going to temple and spending time in it.</li>
+                        <li><span>Music</span><br>I love listening and singing songs. Who said bathroom singing is childish?</li>
+                        <li><span>Photos </span></li>
+                        <div class="Photos">
+                            <img src="WhatsApp Image 2024-06-23 at 16.11.55_636269d4.jpg" alt="">
+                        </div>
+                    </ul>
+                </div>
+                <!-- <div class="tabcontents" id="extra-curry">
+                    <ul>
+                        <li><span>lkwdncp </span><br>Ij oieeiochaewjweijn wjei</li>
+                        <li><span>lkwdncp </span><br>Ij oieeiochaewjweijn wjei</li>
+                        <li><span>lkwdncp </span><br>Ij oieeiochaewjweijn wjei</li>
+                        <li><span>lkwdncp </span><br>Ij oieeiochaewjweijn wjei</li>
+                    </ul>
+                </div> -->
+                <div class="tabcontents" id="extras">
+                    <ul>
+                        <li><span>Goals </span><br>Of course what all are chasing for, Excellence</li>
+                        <li><span>Extra-Curricular</span><br><ul>
+                            <li>Nexus in Technieche <br> <div style="color: white;">A particularly memorable experience was taking part in Nexus of Techniche. It provided me with valuable insights into the world of business and startups. Meeting Mohit Tyagi, a person I admire greatly and who was instrumental in my JEE preparation through his videos, was a highlight of this journey.</div></li>
+                            <li>Kriti, Spardha<br><div style="color: white;">Participated in Quant PS and gained valuable knowledge of various fields</div></li>
+                            <!-- <li>Ij oieeiochaewjweijn wjei</li></ul></li> -->
+                            <li><span>Photos </span></li>
+                            <div class="Photos">
+                                <img src="WhatsApp Image 2024-06-23 at 16.04.49_6d19403e.jpg" alt="">
+                                <img  class="remove" src="WhatsApp Image 2024-06-23 at 16.04.50_f2370e26.jpg" alt="">
+                            </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks")
+        var tabcontents = document.getElementsByClassName("tabcontents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab")
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <!-- SKILLS -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="subtitle">Skills <br> <br></h1>
+            <div class="row">
+                
+                <div class="pro"><br>
+                    <img src="c-code-web-development-coding-programming-site-application-laptop-d-c-code-web-development-coding-programming-219889145.webp" alt="">
+                    <div class="projectname">
+                        C++ Language
+                    </div>
+                    <div class="remove">Advanced knowledge of loops,arrays,conditional statements. Can solve problems in Data Structures..</div>
+                </div>
+                <div class="pro"><br>
+                    <img src="shutterstock_1329434768_bf9003ea47.jpg" alt="">
+                    <div class="projectname">
+                        Python Language
+                    </div>
+                    <div class="remove">Basics of python loops,strings etc. Currently learning advanced topics of python</div>
+                </div>
+
+                <div class="pro"><br>
+                    <img src="images (2).jpeg" alt="">
+                    <div class="projectname">
+                        Web Dev
+                    </div>
+                    <div class="remove">Full knowledge of Front end Web Development. Having command of HTML,CSS,Javascript,currently learning backend development..</div>
+                </div>
+            </div>
+        </div><br><br>
+    </div>
+<!-- 
+PROJECTS -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="subtitle">Projects<br></h1>
+        <div class="row">
+
+            <div class="pro"><br>
+                <img src="Screenshot 2024-06-23 202034.png" alt="">
+                <div class="projectname">
+                    FEC Stock Analysis
+                </div>
+                <div></div>
+            </div>
+            
+            <div class="pro"><br>
+                <img src="Screenshot 2024-06-23 105828.png" alt="">
+                <div class="projectname">
+                    Local Gym Website
+                </div>
+                <div class="remove">A Website made for gym using HTML and css. This project serves as a base for Web development,can get a perfect knowledge about html and css..</div>
+            </div>
+            
+            <div class="pro"><br>
+                <img src="Screenshot 2024-06-23 203457.png" alt="">
+                <div class="projectname">
+                    Nexus Hackathon
+                </div>
+                <div class="remove">A particularly memorable experience was taking part in Nexus of Techniche. It provided me with valuable insights into the world of business and startups.</div>
+            </div>
+            <div class="pro"><br>
+                <img src="images.jpeg" alt="">
+                <div class="projectname">
+                    A ML model
+                </div>
+                <div class="remove">A logistic regression based model created to analyse data on a vaccine dataset and predict whether vaccine is take or not..</div>
+            </div>
+
+            <div class="pro"><br>
+                <img src="data-analysis-1024x576.webp" alt="">
+                <div class="projectname">
+                    A Data Analysis Project
+                </div>
+                <div class="remove">A Website made for gym using HTML and css. This project serves as a base for Web development,can get a perfect knowledge about html and css..</div>
+            </div>
+
+            <div class="pro remove"><br>
+                <img src="images (1).jpeg" alt="">
+                <div class="projectname">
+                    Currently Working projects
+                </div>
+                <div ><ul style="padding-inline: 20px;">
+                    <li>Creating a efficient backend</li>
+                    <li>Creating a model using ML</li>
+                    <li>Creating a game using python</li>
+                </ul></div>
+            </div>
+        </div>
+    </div><br><br>
+</div>
+
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-solid fa-envelope fa-xl"></i> n.niranjan@iitg.ac.in<br></p>
+                    <p><i class="fa-solid fa-phone fa-xl"></i> +91 87920 26623</p>
+                    <div class="socialicons">
+                        <a target="_blank" id="insta" href="https://www.instagram.com/niranjan_sirgoji/"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a target="_blank" href="https://in.linkedin.com/in/niranjan-sirgoji-03131b280"><i
+                                class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                        <a target="_blank" href="https://x.com/NiranjanSirgoji?t=yy0H9tLd1iuUfbX4sS4_PQ&s=09"><i
+                                class="fa-brands fa-x-twitter fa-lg"></i></a>
+                        <!-- <a target="_blank" href=""><i class="fa-brands fa-discord fa-lg"></i></a> -->
+                    </div>
+                </div>
+                <div class="contactright">
+                    <form id="form" >
+                        <div class="fields">
+                            <input type="text" name="name"  id="name" placeholder="Your Name">
+                            <span id="name_error"></span>
+                        </div>
+                        <div class="fields">
+                            <input type="email" id="email" placeholder="Your Email">
+                            <span id="email_error"></span>
+                        </div>
+                        <div class="fields">
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const name=document.getElementById('name');
+const email=document.getElementById('email');
+const form=document.getElementById('form');
+const name_error=document.getElementById('name_error');
+const email_error=document.getElementById('email_error');
+form.addEventListener('submit',(e)=>{
+    if(name.value==='' || name.value== null){
+        e.preventDefault();
+        name_error.innerHTML='*Name is required';
+    }
+    email_value=email.value;
+    const ret_val1=email_value.includes('@gmail.com');
+    const ret_val2=email_value.includes('@iitg.ac.in');
+    const ret_val3=email_value.includes('@yahoo.in');
+    if(email_value==='' || email_value== null){
+        e.preventDefault();
+        email_error.innerHTML='*Email is required';
+    }
+    if(ret_val1 != true && ret_val2 != true && ret_val3!= true && email_value !=''&& email_value!=null){
+        e.preventDefault();
+        email_error.innerHTML='*Invalid email';
+    }
+    
+})
+</script>
+
+</html>
